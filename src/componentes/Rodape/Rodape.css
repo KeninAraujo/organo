@@ -1,0 +1,27 @@
+.rodape {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #6278F7;
+    height: 213px;
+    background-image: url('/imagens/fundo.png');
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
+
+.rodape img {
+    max-width: 100%;
+    justify-self: center;
+}
+
+.rodape p {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    font-size: 20px;
+}
